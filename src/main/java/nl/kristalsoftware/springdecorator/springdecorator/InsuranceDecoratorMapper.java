@@ -2,7 +2,7 @@ package nl.kristalsoftware.springdecorator.springdecorator;
 
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class InsuranceDecoratorMapper extends InsuranceMapper {
 
     @Override

@@ -1,0 +1,7 @@
+---
+applications:
+- name: springdecorator
+  memory: 1GB
+  path: target/springdecorator-0.0.1-SNAPSHOT.jar
+  env:
+    ZEZA_TOGGLE: false

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class InsurancesController {
 
     @Autowired
-    @Qualifier("zeza_toggle_on")
+//    @Qualifier("zeza_toggle_on")
     private InsuranceMapper insuranceMapper;
 
     @GetMapping(value = "/insurances")
